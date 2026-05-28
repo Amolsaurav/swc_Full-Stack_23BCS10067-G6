@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#container{
+    width: 700px;
+    height: 400px;
+    background-color: #f0f0f0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#slider{
+    width: 600px;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.fa-arrow-circle-left,
+.fa-arrow-circle-right{
+    font-size: 40px;
+    color: #333;
+    cursor: pointer;
+}
+
+.fa-arrow-circle-left:hover,
+.fa-arrow-circle-right:hover{
+    color: blue;
+}
